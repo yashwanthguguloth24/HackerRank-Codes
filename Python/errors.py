@@ -3,8 +3,8 @@ for i in range(int(input())):
     try:
         a = int(s[0])//int(s[1])
         print(a)
-    except ZeroDivisionError as zs:
-        print('Error Code:',zs)
-    except ValueError as ve :
-        print('Error Code:',ve)
+    except ZeroDivisionError as z:
+        print('Error Code:',z)
+    except ValueError as v :
+        print('Error Code:',v)
 
